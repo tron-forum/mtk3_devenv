@@ -1,0 +1,270 @@
+<!DOCTYPE CrossStudio_Project_File>
+<solution Name="mtk3_m367" target="8" version="2">
+  <project Name="mtk3_m367">
+    <configuration
+      Name="Common"
+      Placement="Flash"
+      Target="TMPM367FDFG"
+      arm_architecture="v7M"
+      arm_core_type="Cortex-M3"
+      arm_endian="Little"
+      arm_fpu_type="None"
+      arm_interwork="No"
+      arm_linker_heap_size="256"
+      arm_linker_process_stack_size="0"
+      arm_linker_stack_size="256"
+      arm_simulator_memory_simulation_parameter="ROM;0x00000000;0x00080000;RAM;0x20000000;0x00020000"
+      arm_target_debug_interface_type="ADIv5"
+      arm_target_device_name="TMPM367FDFG"
+      arm_target_interface_type="SWD"
+      c_preprocessor_definitions="__TMPM367FDFG__;__TMPM3_FAMILY;__M360_SUBFAMILY;ARM_MATH_CM3;FLASH_PLACEMENT=1"
+      c_user_include_directories=""
+      debug_register_definition_file="$(ProjectDir)/M367_Registers.xml"
+      debug_target_connection="J-Link"
+      gcc_entry_point="Reset_Handler"
+      linker_memory_map_file="$(ProjectDir)/TMPM367FDFG_MemoryMap.xml"
+      linker_section_placement_file="$(ProjectDir)/flash_placement.xml"
+      macros="DeviceHeaderFile=$(PackagesDir)/TMPM3/CMSIS/Device/Include/TMPM367.h;DeviceLibraryIdentifier=M3l;DeviceSystemFile=$(PackagesDir)/TMPM3/CMSIS/Device/Source/system_TMPM367.c;DeviceVectorsFile=$(PackagesDir)/TMPM3/Source/M367_Vectors.s;DeviceFamily=TMPM3;DeviceSubFamily=M360;Target=TMPM367FDFG;Placement=Flash"
+      package_dependencies="TMPM3"
+      project_directory=""
+      project_type="Executable"
+      target_reset_script="Reset();"
+      target_trace_initialize_script="EnableTrace(&quot;$(TraceInterfaceType)&quot;)" />
+    <folder Name="mtkernel_3">
+      <folder Name="config">
+        <file file_name="mtkernel_3/config/config.h" />
+        <file file_name="mtkernel_3/config/config_func.h" />
+      </folder>
+      <folder Name="device">
+        <folder Name="common">
+          <folder Name="drvif">
+            <file file_name="mtkernel_3/device/common/drvif/msdrvif.c" />
+            <file file_name="mtkernel_3/device/common/drvif/msdrvif.h" />
+          </folder>
+        </folder>
+        <folder Name="config">
+          <file file_name="mtkernel_3/device/config/devconf.h" />
+        </folder>
+        <folder Name="include">
+          <file file_name="mtkernel_3/device/include/dev_adc.h" />
+          <file file_name="mtkernel_3/device/include/dev_i2c.h" />
+          <file file_name="mtkernel_3/device/include/dev_ser.h" />
+          <file file_name="mtkernel_3/device/include/device.h" />
+        </folder>
+        <folder Name="adc">
+          <file file_name="mtkernel_3/device/adc/adc.c" />
+          <file file_name="mtkernel_3/device/adc/adc.h" />
+          <file file_name="mtkernel_3/device/adc/adc_cnf.h" />
+          <folder Name="sysdepend">
+            <file file_name="mtkernel_3/device/adc/sysdepend/tx03_m367/adc_cnf_m367.h" />
+            <file file_name="mtkernel_3/device/adc/sysdepend/tx03_m367/adc_m367.c" />
+            <file file_name="mtkernel_3/device/adc/sysdepend/tx03_m367/adc_m367.h" />
+          </folder>
+        </folder>
+        <folder Name="i2c">
+          <file file_name="mtkernel_3/device/i2c/i2c.c" />
+          <file file_name="mtkernel_3/device/i2c/i2c.h" />
+          <file file_name="mtkernel_3/device/i2c/i2c_cnf.h" />
+          <folder Name="sysdepend">
+            <file file_name="mtkernel_3/device/i2c/sysdepend/tx03_m367/i2c_cnf_m367.h" />
+            <file file_name="mtkernel_3/device/i2c/sysdepend/tx03_m367/i2c_m367.c" />
+            <file file_name="mtkernel_3/device/i2c/sysdepend/tx03_m367/i2c_m367.h" />
+          </folder>
+        </folder>
+        <folder Name="ser">
+          <file file_name="mtkernel_3/device/ser/ser.c" />
+          <file file_name="mtkernel_3/device/ser/ser.h" />
+          <file file_name="mtkernel_3/device/ser/ser_cnf.h" />
+          <folder Name="sysdepend">
+            <file file_name="mtkernel_3/device/ser/sysdepend/tx03_m367/ser_cnf_m367.h" />
+            <file file_name="mtkernel_3/device/ser/sysdepend/tx03_m367/ser_m367.c" />
+            <file file_name="mtkernel_3/device/ser/sysdepend/tx03_m367/ser_m367.h" />
+            <file file_name="mtkernel_3/device/ser/sysdepend/tx03_m367/ser_mode_m367.h" />
+          </folder>
+        </folder>
+      </folder>
+      <folder Name="include">
+        <folder Name="sys">
+          <file file_name="mtkernel_3/include/sys/inittask.h" />
+          <file file_name="mtkernel_3/include/sys/knldef.h" />
+          <file file_name="mtkernel_3/include/sys/machine.h" />
+          <file file_name="mtkernel_3/include/sys/profile.h" />
+          <file file_name="mtkernel_3/include/sys/queue.h" />
+          <file file_name="mtkernel_3/include/sys/sysdef.h" />
+        </folder>
+        <folder Name="tk">
+          <file file_name="mtkernel_3/include/tk/dbgspt.h" />
+          <file file_name="mtkernel_3/include/tk/device.h" />
+          <file file_name="mtkernel_3/include/tk/errno.h" />
+          <file file_name="mtkernel_3/include/tk/syscall.h" />
+          <file file_name="mtkernel_3/include/tk/syslib.h" />
+          <file file_name="mtkernel_3/include/tk/tkernel.h" />
+          <file file_name="mtkernel_3/include/tk/typedef.h" />
+        </folder>
+        <folder Name="tm">
+          <file file_name="mtkernel_3/include/tm/tmonitor.h" />
+        </folder>
+      </folder>
+      <folder Name="kernel">
+        <folder Name="inittask">
+          <file file_name="mtkernel_3/kernel/inittask/inittask.c" />
+        </folder>
+        <folder Name="knlinc">
+          <file file_name="mtkernel_3/kernel/knlinc/kernel.h" />
+          <file file_name="mtkernel_3/kernel/knlinc/limits.h" />
+          <file file_name="mtkernel_3/kernel/knlinc/longlong.h" />
+          <file file_name="mtkernel_3/kernel/knlinc/tstdlib.h" />
+        </folder>
+        <folder Name="sysinit">
+          <file file_name="mtkernel_3/kernel/sysinit/sysinit.c" />
+        </folder>
+        <folder Name="tkernel">
+          <file file_name="mtkernel_3/kernel/tkernel/check.h" />
+          <file file_name="mtkernel_3/kernel/tkernel/cpuctl.c" />
+          <file file_name="mtkernel_3/kernel/tkernel/device.c" />
+          <file file_name="mtkernel_3/kernel/tkernel/device.h" />
+          <file file_name="mtkernel_3/kernel/tkernel/deviceio.c" />
+          <file file_name="mtkernel_3/kernel/tkernel/eventflag.c" />
+          <file file_name="mtkernel_3/kernel/tkernel/eventflag.h" />
+          <file file_name="mtkernel_3/kernel/tkernel/int.c" />
+          <file file_name="mtkernel_3/kernel/tkernel/klock.c" />
+          <file file_name="mtkernel_3/kernel/tkernel/klock.h" />
+          <file file_name="mtkernel_3/kernel/tkernel/mailbox.c" />
+          <file file_name="mtkernel_3/kernel/tkernel/mailbox.h" />
+          <file file_name="mtkernel_3/kernel/tkernel/memory.c" />
+          <file file_name="mtkernel_3/kernel/tkernel/memory.h" />
+          <file file_name="mtkernel_3/kernel/tkernel/mempfix.c" />
+          <file file_name="mtkernel_3/kernel/tkernel/mempfix.h" />
+          <file file_name="mtkernel_3/kernel/tkernel/mempool.c" />
+          <file file_name="mtkernel_3/kernel/tkernel/mempool.h" />
+          <file file_name="mtkernel_3/kernel/tkernel/messagebuf.c" />
+          <file file_name="mtkernel_3/kernel/tkernel/messagebuf.h" />
+          <file file_name="mtkernel_3/kernel/tkernel/misc_calls.c" />
+          <file file_name="mtkernel_3/kernel/tkernel/mutex.c" />
+          <file file_name="mtkernel_3/kernel/tkernel/mutex.h" />
+          <file file_name="mtkernel_3/kernel/tkernel/objname.c" />
+          <file file_name="mtkernel_3/kernel/tkernel/power.c" />
+          <file file_name="mtkernel_3/kernel/tkernel/ready_queue.h" />
+          <file file_name="mtkernel_3/kernel/tkernel/rendezvous.c" />
+          <file file_name="mtkernel_3/kernel/tkernel/rendezvous.h" />
+          <file file_name="mtkernel_3/kernel/tkernel/semaphore.c" />
+          <file file_name="mtkernel_3/kernel/tkernel/semaphore.h" />
+          <file file_name="mtkernel_3/kernel/tkernel/sysmgr.h" />
+          <file file_name="mtkernel_3/kernel/tkernel/task.c" />
+          <file file_name="mtkernel_3/kernel/tkernel/task.h" />
+          <file file_name="mtkernel_3/kernel/tkernel/task_manage.c" />
+          <file file_name="mtkernel_3/kernel/tkernel/task_sync.c" />
+          <file file_name="mtkernel_3/kernel/tkernel/time_calls.c" />
+          <file file_name="mtkernel_3/kernel/tkernel/time_calls.h" />
+          <file file_name="mtkernel_3/kernel/tkernel/timer.c" />
+          <file file_name="mtkernel_3/kernel/tkernel/timer.h" />
+          <file file_name="mtkernel_3/kernel/tkernel/tkinit.c" />
+          <file file_name="mtkernel_3/kernel/tkernel/wait.c" />
+          <file file_name="mtkernel_3/kernel/tkernel/wait.h" />
+          <file file_name="mtkernel_3/kernel/tkernel/winfo.h" />
+        </folder>
+        <folder Name="tstdlib">
+          <file file_name="mtkernel_3/kernel/tstdlib/bitop.c" />
+          <file file_name="mtkernel_3/kernel/tstdlib/string.c" />
+        </folder>
+        <folder Name="sysdepend">
+          <file file_name="mtkernel_3/kernel/sysdepend/cpu_status.h" />
+          <file file_name="mtkernel_3/kernel/sysdepend/cpu_task.h" />
+          <file file_name="mtkernel_3/kernel/sysdepend/sys_msg.h" />
+          <file file_name="mtkernel_3/kernel/sysdepend/sys_timer.h" />
+          <file file_name="mtkernel_3/kernel/sysdepend/sysdepend.h" />
+          <folder Name="iote_m367">
+            <file file_name="mtkernel_3/kernel/sysdepend/iote_m367/cpu_status.h" />
+            <file file_name="mtkernel_3/kernel/sysdepend/iote_m367/cpu_task.h" />
+            <file file_name="mtkernel_3/kernel/sysdepend/iote_m367/devinit.c" />
+            <file file_name="mtkernel_3/kernel/sysdepend/iote_m367/hw_setting.c" />
+            <file file_name="mtkernel_3/kernel/sysdepend/iote_m367/power_save.c" />
+            <file file_name="mtkernel_3/kernel/sysdepend/iote_m367/sys_msg.h" />
+            <file file_name="mtkernel_3/kernel/sysdepend/iote_m367/sys_timer.h" />
+            <file file_name="mtkernel_3/kernel/sysdepend/iote_m367/sysdepend.h" />
+          </folder>
+          <folder Name="armv7m" />
+          <folder Name="cpu">
+            <file file_name="mtkernel_3/kernel/sysdepend/cpu/tx03_m367/cpu_clock.c" />
+            <file file_name="mtkernel_3/kernel/sysdepend/cpu/tx03_m367/cpu_status.h" />
+            <file file_name="mtkernel_3/kernel/sysdepend/cpu/tx03_m367/cpu_task.h" />
+            <file file_name="mtkernel_3/kernel/sysdepend/cpu/tx03_m367/sys_timer.h" />
+            <file file_name="mtkernel_3/kernel/sysdepend/cpu/tx03_m367/sysdepend.h" />
+            <file file_name="mtkernel_3/kernel/sysdepend/cpu/tx03_m367/vector_tbl.c" />
+            <folder Name="core">
+              <file file_name="mtkernel_3/kernel/sysdepend/cpu/core/armv7m/cpu_cntl.c" />
+              <file file_name="mtkernel_3/kernel/sysdepend/cpu/core/armv7m/cpu_status.h" />
+              <file file_name="mtkernel_3/kernel/sysdepend/cpu/core/armv7m/cpu_task.h" />
+              <file file_name="mtkernel_3/kernel/sysdepend/cpu/core/armv7m/exc_hdr.c" />
+              <file file_name="mtkernel_3/kernel/sysdepend/cpu/core/armv7m/interrupt.c" />
+              <file file_name="mtkernel_3/kernel/sysdepend/cpu/core/armv7m/offset.h" />
+              <file file_name="mtkernel_3/kernel/sysdepend/cpu/core/armv7m/reset_hdl.c" />
+              <file file_name="mtkernel_3/kernel/sysdepend/cpu/core/armv7m/sys_timer.h" />
+              <file file_name="mtkernel_3/kernel/sysdepend/cpu/core/armv7m/sysdepend.h" />
+              <file file_name="mtkernel_3/kernel/sysdepend/cpu/core/armv7m/dispatch.S" />
+            </folder>
+          </folder>
+        </folder>
+      </folder>
+      <folder Name="lib">
+        <folder Name="libtk">
+          <file file_name="mtkernel_3/lib/libtk/fastlock.c" />
+          <file file_name="mtkernel_3/lib/libtk/fastmlock.c" />
+          <file file_name="mtkernel_3/lib/libtk/kmalloc.c" />
+          <folder Name="sysdepend">
+            <file file_name="mtkernel_3/lib/libtk/sysdepend/cpu/tx03_m367/int_m367.c" />
+            <file file_name="mtkernel_3/lib/libtk/sysdepend/cpu/tx03_m367/ptimer_m367.c" />
+            <folder Name="core">
+              <file file_name="mtkernel_3/lib/libtk/sysdepend/cpu/core/armv7m/int_armv7m.c" />
+              <file file_name="mtkernel_3/lib/libtk/sysdepend/cpu/core/armv7m/int_armv7m.h" />
+              <file file_name="mtkernel_3/lib/libtk/sysdepend/cpu/core/armv7m/wusec_aemv7m4.c" />
+            </folder>
+          </folder>
+        </folder>
+        <folder Name="libtm">
+          <file file_name="mtkernel_3/lib/libtm/libtm.c" />
+          <file file_name="mtkernel_3/lib/libtm/libtm.h" />
+          <file file_name="mtkernel_3/lib/libtm/libtm_conf.h" />
+          <file file_name="mtkernel_3/lib/libtm/libtm_printf.c" />
+          <folder Name="sysdepend">
+            <file file_name="mtkernel_3/lib/libtm/sysdepend/iote_m367/tm_com.c" />
+          </folder>
+        </folder>
+      </folder>
+    </folder>
+    <folder Name="user_program">
+      <file file_name="user_program/user_main.c" />
+    </folder>
+    <configuration
+      Name="Debug"
+      c_preprocessor_definitions="_IOTE_M367_"
+      c_system_include_directories=""
+      c_user_include_directories=".;$(ProjectDir)/mtkernel_3/config;$(ProjectDir)/mtkernel_3/include;$(ProjectDir)/mtkernel_3/kernel/knlinc"
+      debug_entry_point_symbol="Reset_Handler"
+      link_include_standard_libraries="No"
+      link_linker_script_file="$(ProjectDir)/mtkernel_3/etc/linker/iote_m367/tkernel_map.ld"
+      link_use_linker_script_file="Yes"
+      target_reset_script="TargetInterface.resetAndStop()" />
+    <configuration
+      Name="Release"
+      c_preprocessor_definitions="_IOTE_M367_"
+      c_user_include_directories=".;$(ProjectDir)/mtkernel_3/config;$(ProjectDir)/mtkernel_3/include;$(ProjectDir)/mtkernel_3/kernel/knlinc"
+      debug_entry_point_symbol="Reset_Handler"
+      link_include_standard_libraries="No"
+      link_linker_script_file="$(ProjectDir)/mtkernel_3/etc/linker/iote_m367/tkernel_map.ld"
+      link_use_linker_script_file="Yes"
+      target_reset_script="TargetInterface.resetAndStop()" />
+  </project>
+  <configuration
+    Name="Debug"
+    c_preprocessor_definitions="DEBUG"
+    c_system_include_directories="$(StudioIncDir:$(StudioDir)/include)"
+    gcc_debugging_level="Level 3"
+    gcc_optimization_level="None" />
+  <configuration
+    Name="Release"
+    c_preprocessor_definitions="NDEBUG"
+    gcc_debugging_level="Level 2"
+    gcc_omit_frame_pointer="Yes"
+    gcc_optimization_level="Level 2 balanced" />
+</solution>
