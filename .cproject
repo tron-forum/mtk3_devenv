@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.renesas.cdt.managedbuild.gcc.rx.configuration.debug.1627069935">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.renesas.cdt.managedbuild.gcc.rx.configuration.debug.1627069935" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf *.lst *.lis *.lpp *.map" description="" id="com.renesas.cdt.managedbuild.gcc.rx.configuration.debug.1627069935" name="Debug" parent="com.renesas.cdt.managedbuild.gcc.rx.configuration.debug">
+					<folderInfo id="com.renesas.cdt.managedbuild.gcc.rx.configuration.debug.1627069935." name="/" resourcePath="">
+						<toolChain id="com.renesas.cdt.managedbuild.gcc.rx.toolchain.debug.363347684" name="GCC for Renesas RX" superClass="com.renesas.cdt.managedbuild.gcc.rx.toolchain.debug">
+							<option id="com.renesas.cdt.managedbuild.gcc.core.option.optimization.optimizationLevel.1411615293" name="Optimization Level" superClass="com.renesas.cdt.managedbuild.gcc.core.option.optimization.optimizationLevel" useByScannerDiscovery="true"/>
+							<option id="com.renesas.cdt.managedbuild.gcc.core.option.optimization.fdatasections.1597966089" name="Data sections (-fdata-sections)" superClass="com.renesas.cdt.managedbuild.gcc.core.option.optimization.fdatasections" useByScannerDiscovery="true" value="false" valueType="boolean"/>
+							<option id="com.renesas.cdt.managedbuild.gcc.core.option.debug.debugFormat.1456795405" name="Debug format" superClass="com.renesas.cdt.managedbuild.gcc.core.option.debug.debugFormat" useByScannerDiscovery="true" value="com.renesas.cdt.managedbuild.gcc.core.option.debug.debugFormat.Default" valueType="enumerated"/>
+							<option id="com.renesas.cdt.managedbuild.gcc.core.option.cpu.cpuType.930709757" name="CPU Type" superClass="com.renesas.cdt.managedbuild.gcc.core.option.cpu.cpuType" useByScannerDiscovery="false" value="com.renesas.cdt.managedbuild.gcc.core.option.cpu.cpuType.rx230" valueType="enumerated"/>
+							<option id="com.renesas.cdt.managedbuild.gcc.core.option.cpu.architecture.1125762954" name="Architecture" superClass="com.renesas.cdt.managedbuild.gcc.core.option.cpu.architecture" useByScannerDiscovery="false" value="com.renesas.cdt.managedbuild.gcc.rx.architecture.v2" valueType="enumerated"/>
+							<option id="com.renesas.cdt.managedbuild.gcc.core.option.warnings.allwarn.2131884683" name="Enable all warnings (-Wall)" superClass="com.renesas.cdt.managedbuild.gcc.core.option.warnings.allwarn" useByScannerDiscovery="true" value="true" valueType="boolean"/>
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="com.renesas.cdt.managedbuild.gcc.core.targetPlatform.258046711" isAbstract="false" osList="all" superClass="com.renesas.cdt.managedbuild.gcc.core.targetPlatform"/>
+							<builder buildPath="${workspace_loc:/mtk3_rx231}/Debug" id="com.renesas.cdt.managedbuild.gcc.core.builder.1103724035" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="GCC for Renesas Builder" superClass="com.renesas.cdt.managedbuild.gcc.core.builder"/>
+							<tool id="com.renesas.cdt.managedbuild.gcc.rx.tool.libgen.169324226" name="Library Generator" superClass="com.renesas.cdt.managedbuild.gcc.rx.tool.libgen"/>
+							<tool id="com.renesas.cdt.managedbuild.gcc.rx.tool.compiler.1483260523" name="Compiler" superClass="com.renesas.cdt.managedbuild.gcc.rx.tool.compiler">
+								<option id="com.renesas.cdt.managedbuild.gcc.core.option.compiler.source.std.933811784" name="Language standard" superClass="com.renesas.cdt.managedbuild.gcc.core.option.compiler.source.std" useByScannerDiscovery="true" value="com.renesas.cdt.managedbuild.gcc.core.option.compiler.common.gnu11" valueType="enumerated"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.managedbuild.gcc.core.option.compiler.includes.includeFileDir.658853161" name="Include file directories" superClass="com.renesas.cdt.managedbuild.gcc.core.option.compiler.includes.includeFileDir" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mtkernel_3/config}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mtkernel_3/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mtkernel_3/kernel/knlinc}&quot;"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.managedbuild.gcc.core.option.compiler.includes.macroDefines.1554472753" name="Macro Defines" superClass="com.renesas.cdt.managedbuild.gcc.core.option.compiler.includes.macroDefines" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="_IOTE_RX231_"/>
+								</option>
+								<inputType id="com.renesas.cdt.managedbuild.gcc.core.inputType.compiler.c.1330750861" superClass="com.renesas.cdt.managedbuild.gcc.core.inputType.compiler.c"/>
+							</tool>
+							<tool id="com.renesas.cdt.managedbuild.gcc.rx.tool.cpp.compiler.470666320" name="Compiler CPP" superClass="com.renesas.cdt.managedbuild.gcc.rx.tool.cpp.compiler"/>
+							<tool id="com.renesas.cdt.managedbuild.gcc.rx.tool.assembler.988962134" name="Assembler" superClass="com.renesas.cdt.managedbuild.gcc.rx.tool.assembler">
+								<option id="com.renesas.cdt.managedbuild.gcc.core.option.assembler.source.usepreprocessor.2043140430" name="Use preprocessor" superClass="com.renesas.cdt.managedbuild.gcc.core.option.assembler.source.usepreprocessor" useByScannerDiscovery="false"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.managedbuild.gcc.core.option.assembler.includes.includeFileDirectories.339640386" name="Include file directories" superClass="com.renesas.cdt.managedbuild.gcc.core.option.assembler.includes.includeFileDirectories" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mtkernel_3/config}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mtkernel_3/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mtkernel_3/kernel/knlinc}&quot;"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="true" id="com.renesas.cdt.managedbuild.gcc.core.option.assembler.includes.symbolDefines.2074378186" name="Define a symbol" superClass="com.renesas.cdt.managedbuild.gcc.core.option.assembler.includes.symbolDefines" useByScannerDiscovery="false" valueType="definedSymbols"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.managedbuild.gcc.core.option.assembler.source.userDefinedOptions.1652247799" name="User defined options" superClass="com.renesas.cdt.managedbuild.gcc.core.option.assembler.source.userDefinedOptions" useByScannerDiscovery="false" valueType="stringList">
+									<listOptionValue builtIn="false" value="-D_IOTE_RX231_"/>
+								</option>
+								<inputType id="com.renesas.cdt.managedbuild.gcc.core.inputType.assembler.6674522" superClass="com.renesas.cdt.managedbuild.gcc.core.inputType.assembler"/>
+							</tool>
+							<tool id="com.renesas.cdt.managedbuild.gcc.rx.tool.linker.861870067" name="Linker" superClass="com.renesas.cdt.managedbuild.gcc.rx.tool.linker">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.managedbuild.gcc.core.option.linker.source.linkOrderList.691441771" name="Linkage Order List" superClass="com.renesas.cdt.managedbuild.gcc.core.option.linker.source.linkOrderList" useByScannerDiscovery="false" valueType="stringList">
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/lib/libtm/sysdepend/no_device\tm_com.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/lib/libtm/sysdepend/iote_stm32l4\tm_com.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/lib/libtm/sysdepend/iote_rx231\tm_com.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/lib/libtm/sysdepend/iote_m367\tm_com.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/lib/libtm\libtm.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/lib/libtm\libtm_printf.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/lib/libtk/sysdepend/cpu/tx03_m367\int_m367.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/lib/libtk/sysdepend/cpu/tx03_m367\ptimer_m367.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/lib/libtk/sysdepend/cpu/stm32l4\int_stm32l4.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/lib/libtk/sysdepend/cpu/stm32l4\ptimer_stm32l4.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/lib/libtk/sysdepend/cpu/rx231\int_rx231.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/lib/libtk/sysdepend/cpu/rx231\ptimer_rx231.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/lib/libtk/sysdepend/cpu/core/rxv2\int_rxv2.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/lib/libtk/sysdepend/cpu/core/rxv2\ipr_index.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/lib/libtk/sysdepend/cpu/core/rxv2\wusec_rvx2.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/lib/libtk/sysdepend/cpu/core/armv7m\int_armv7m.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/lib/libtk/sysdepend/cpu/core/armv7m\wusec_aemv7m4.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/lib/libtk\fastlock.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/lib/libtk\fastmlock.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/lib/libtk\kmalloc.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/usermain\usermain.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/tstdlib\bitop.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/tstdlib\string.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/tkernel\cpuctl.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/tkernel\device.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/tkernel\deviceio.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/tkernel\eventflag.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/tkernel\int.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/tkernel\klock.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/tkernel\mailbox.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/tkernel\memory.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/tkernel\mempfix.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/tkernel\mempool.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/tkernel\messagebuf.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/tkernel\misc_calls.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/tkernel\mutex.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/tkernel\objname.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/tkernel\power.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/tkernel\rendezvous.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/tkernel\semaphore.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/tkernel\task.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/tkernel\task_manage.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/tkernel\task_sync.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/tkernel\time_calls.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/tkernel\timer.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/tkernel\tkinit.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/tkernel\wait.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/sysinit\sysinit.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/sysdepend/iote_stm32l4\devinit.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/sysdepend/iote_stm32l4\hw_setting.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/sysdepend/iote_stm32l4\power_save.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/sysdepend/iote_rx231\devinit.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/sysdepend/iote_rx231\hw_setting.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/sysdepend/iote_rx231\power_save.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/sysdepend/iote_m367\devinit.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/sysdepend/iote_m367\hw_setting.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/sysdepend/iote_m367\power_save.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/sysdepend/cpu/tx03_m367\cpu_clock.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/sysdepend/cpu/tx03_m367\vector_tbl.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/sysdepend/cpu/stm32l4\cpu_clock.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/sysdepend/cpu/stm32l4\vector_tbl.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/sysdepend/cpu/rx231\cpu_clock.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/sysdepend/cpu/rx231\hllint_ent.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/sysdepend/cpu/rx231\hllint_tbl.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/sysdepend/cpu/rx231\intvect_tbl.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/sysdepend/cpu/core/rxv2\cpu_cntl.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/sysdepend/cpu/core/rxv2\dispatch.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/sysdepend/cpu/core/rxv2\exc_hdr.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/sysdepend/cpu/core/rxv2\int_asm.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/sysdepend/cpu/core/rxv2\interrupt.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/sysdepend/cpu/core/rxv2\reset_hdl.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/sysdepend/cpu/core/rxv2\reset_main.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/sysdepend/cpu/core/rxv2\vector_tbl.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/sysdepend/cpu/core/armv7m\cpu_cntl.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/sysdepend/cpu/core/armv7m\dispatch.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/sysdepend/cpu/core/armv7m\exc_hdr.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/sysdepend/cpu/core/armv7m\interrupt.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/sysdepend/cpu/core/armv7m\reset_hdl.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/inittask\inittask.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/device/ser/sysdepend/tx03_m367\ser_m367.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/device/ser/sysdepend/stm32l4\ser_stm32l4.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/device/ser/sysdepend/rx231\ser_rx231.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/device/ser\ser.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/device/i2c/sysdepend/tx03_m367\i2c_m367.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/device/i2c/sysdepend/stm32l4\i2c_stm32l4.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/device/i2c/sysdepend/rx231\i2c_rx231.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/device/i2c\i2c.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/device/common/drvif\msdrvif.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/device/adc/sysdepend/tx03_m367\adc_m367.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/device/adc/sysdepend/stm32l4\adc_stm32l4.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/device/adc/sysdepend/rx231\adc_rx231.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/device/adc\adc.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/app_sample\app_main.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\libmtk3_rx231.a&quot;"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.managedbuild.gcc.core.option.linker.archives.archiveLibraryFiles.1266308294" name="Standard archive (library) files" superClass="com.renesas.cdt.managedbuild.gcc.core.option.linker.archives.archiveLibraryFiles" useByScannerDiscovery="false" valueType="stringList">
+									<listOptionValue builtIn="false" value="${BuildArtifactFileBaseName}"/>
+									<listOptionValue builtIn="false" value="gcc"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.managedbuild.gcc.core.option.linker.source.linkerScript.555405529" name="Linker script" superClass="com.renesas.cdt.managedbuild.gcc.core.option.linker.source.linkerScript" useByScannerDiscovery="false" valueType="stringList">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mtkernel_3/etc/linker/iote_rx231/tkernel_map.ld}&quot;"/>
+								</option>
+								<option id="com.renesas.cdt.managedbuild.gcc.core.option.linker.misc.nostdlibs.287229052" name="No startup or default libs (-nostdlib)" superClass="com.renesas.cdt.managedbuild.gcc.core.option.linker.misc.nostdlibs" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="com.renesas.cdt.managedbuild.gcc.core.option.linker.entrypoint.1924275112" name="Entry point:" superClass="com.renesas.cdt.managedbuild.gcc.core.option.linker.entrypoint" useByScannerDiscovery="false" value="-Wl,-e_Reset_Handler" valueType="string"/>
+							</tool>
+							<tool id="com.renesas.cdt.managedbuild.gcc.rx.tool.cpp.linker.514523911" name="Linker CPP" superClass="com.renesas.cdt.managedbuild.gcc.rx.tool.cpp.linker"/>
+							<tool id="com.renesas.cdt.managedbuild.gcc.rx.tool.objcopy.221841290" name="Objcopy" superClass="com.renesas.cdt.managedbuild.gcc.rx.tool.objcopy"/>
+							<tool id="com.renesas.cdt.managedbuild.gcc.rx.tool.archiver.566942922" name="Archiver" superClass="com.renesas.cdt.managedbuild.gcc.rx.tool.archiver"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="com.renesas.cdt.managedbuild.core.toolchainInfo"/>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="com.renesas.cdt.managedbuild.gcc.rx.configuration.release.2039748836">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.renesas.cdt.managedbuild.gcc.rx.configuration.release.2039748836" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf *.lst *.lis *.lpp *.map" description="" id="com.renesas.cdt.managedbuild.gcc.rx.configuration.release.2039748836" name="Release" parent="com.renesas.cdt.managedbuild.gcc.rx.configuration.release">
+					<folderInfo id="com.renesas.cdt.managedbuild.gcc.rx.configuration.release.2039748836." name="/" resourcePath="">
+						<toolChain id="com.renesas.cdt.managedbuild.gcc.rx.toolchain.release.688136746" name="GCC for Renesas RX" superClass="com.renesas.cdt.managedbuild.gcc.rx.toolchain.release">
+							<option id="com.renesas.cdt.managedbuild.gcc.core.option.optimization.optimizationLevel.358927114" name="Optimization Level" superClass="com.renesas.cdt.managedbuild.gcc.core.option.optimization.optimizationLevel" useByScannerDiscovery="true" value="com.renesas.cdt.managedbuild.gcc.core.option.optimization.optimizationLevel.speed" valueType="enumerated"/>
+							<option id="com.renesas.cdt.managedbuild.gcc.core.option.optimization.fdatasections.637754888" name="Data sections (-fdata-sections)" superClass="com.renesas.cdt.managedbuild.gcc.core.option.optimization.fdatasections" useByScannerDiscovery="true" value="false" valueType="boolean"/>
+							<option id="com.renesas.cdt.managedbuild.gcc.core.option.debug.debugFormat.1432580753" name="Debug format" superClass="com.renesas.cdt.managedbuild.gcc.core.option.debug.debugFormat" useByScannerDiscovery="true" value="com.renesas.cdt.managedbuild.gcc.core.option.debug.debugFormat.Default" valueType="enumerated"/>
+							<option id="com.renesas.cdt.managedbuild.gcc.core.option.cpu.cpuType.1921205005" name="CPU Type" superClass="com.renesas.cdt.managedbuild.gcc.core.option.cpu.cpuType" useByScannerDiscovery="false" value="com.renesas.cdt.managedbuild.gcc.core.option.cpu.cpuType.rx230" valueType="enumerated"/>
+							<option id="com.renesas.cdt.managedbuild.gcc.core.option.cpu.architecture.674777471" name="Architecture" superClass="com.renesas.cdt.managedbuild.gcc.core.option.cpu.architecture" useByScannerDiscovery="false" value="com.renesas.cdt.managedbuild.gcc.rx.architecture.v2" valueType="enumerated"/>
+							<option id="com.renesas.cdt.managedbuild.gcc.core.option.debug.debugLevel.1094003542" name="Debug level" superClass="com.renesas.cdt.managedbuild.gcc.core.option.debug.debugLevel" useByScannerDiscovery="true" value="com.renesas.cdt.managedbuild.gcc.core.option.debug.debugLevel.level1" valueType="enumerated"/>
+							<option id="com.renesas.cdt.managedbuild.gcc.core.option.warnings.allwarn.923728126" name="Enable all warnings (-Wall)" superClass="com.renesas.cdt.managedbuild.gcc.core.option.warnings.allwarn" useByScannerDiscovery="true" value="true" valueType="boolean"/>
+							<option id="com.renesas.cdt.managedbuild.gcc.core.option.cpu.architecture.applicability.567410863" name="Architecture Applicability" superClass="com.renesas.cdt.managedbuild.gcc.core.option.cpu.architecture.applicability" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="com.renesas.cdt.managedbuild.gcc.core.targetPlatform.8810775" isAbstract="false" osList="all" superClass="com.renesas.cdt.managedbuild.gcc.core.targetPlatform"/>
+							<builder buildPath="${workspace_loc:/mtk3_rx231}/Release" id="com.renesas.cdt.managedbuild.gcc.core.builder.177455239" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="GCC for Renesas Builder" superClass="com.renesas.cdt.managedbuild.gcc.core.builder"/>
+							<tool id="com.renesas.cdt.managedbuild.gcc.rx.tool.libgen.1226256861" name="Library Generator" superClass="com.renesas.cdt.managedbuild.gcc.rx.tool.libgen">
+								<option id="com.renesas.cdt.managedbuild.gcc.core.option.libgen.libstd.applicability.296621288" superClass="com.renesas.cdt.managedbuild.gcc.core.option.libgen.libstd.applicability" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+							</tool>
+							<tool id="com.renesas.cdt.managedbuild.gcc.rx.tool.compiler.232005567" name="Compiler" superClass="com.renesas.cdt.managedbuild.gcc.rx.tool.compiler">
+								<option id="com.renesas.cdt.managedbuild.gcc.core.option.compiler.source.std.1534907891" name="Language standard" superClass="com.renesas.cdt.managedbuild.gcc.core.option.compiler.source.std" useByScannerDiscovery="true" value="com.renesas.cdt.managedbuild.gcc.core.option.compiler.common.gnu11" valueType="enumerated"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.managedbuild.gcc.core.option.compiler.includes.includeFileDir.640082138" name="Include file directories" superClass="com.renesas.cdt.managedbuild.gcc.core.option.compiler.includes.includeFileDir" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mtkernel_3/config}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mtkernel_3/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mtkernel_3/kernel/knlinc}&quot;"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.managedbuild.gcc.core.option.compiler.includes.macroDefines.1920080455" name="Macro Defines" superClass="com.renesas.cdt.managedbuild.gcc.core.option.compiler.includes.macroDefines" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="_IOTE_RX231_"/>
+								</option>
+								<inputType id="com.renesas.cdt.managedbuild.gcc.core.inputType.compiler.c.390443279" superClass="com.renesas.cdt.managedbuild.gcc.core.inputType.compiler.c"/>
+							</tool>
+							<tool id="com.renesas.cdt.managedbuild.gcc.rx.tool.cpp.compiler.680493064" name="Compiler CPP" superClass="com.renesas.cdt.managedbuild.gcc.rx.tool.cpp.compiler"/>
+							<tool id="com.renesas.cdt.managedbuild.gcc.rx.tool.assembler.1894469764" name="Assembler" superClass="com.renesas.cdt.managedbuild.gcc.rx.tool.assembler">
+								<option id="com.renesas.cdt.managedbuild.gcc.core.option.assembler.source.usepreprocessor.762051263" name="Use preprocessor" superClass="com.renesas.cdt.managedbuild.gcc.core.option.assembler.source.usepreprocessor" useByScannerDiscovery="false"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.managedbuild.gcc.core.option.assembler.includes.includeFileDirectories.877885907" name="Include file directories" superClass="com.renesas.cdt.managedbuild.gcc.core.option.assembler.includes.includeFileDirectories" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mtkernel_3/config}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mtkernel_3/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mtkernel_3/kernel/knlinc}&quot;"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="true" id="com.renesas.cdt.managedbuild.gcc.core.option.assembler.includes.symbolDefines.1418516358" name="Define a symbol" superClass="com.renesas.cdt.managedbuild.gcc.core.option.assembler.includes.symbolDefines" useByScannerDiscovery="false" valueType="definedSymbols"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.managedbuild.gcc.core.option.assembler.source.userDefinedOptions.410167330" name="User defined options" superClass="com.renesas.cdt.managedbuild.gcc.core.option.assembler.source.userDefinedOptions" useByScannerDiscovery="false" valueType="stringList">
+									<listOptionValue builtIn="false" value="-D_IOTE_RX231_"/>
+								</option>
+								<inputType id="com.renesas.cdt.managedbuild.gcc.core.inputType.assembler.1562791694" superClass="com.renesas.cdt.managedbuild.gcc.core.inputType.assembler"/>
+							</tool>
+							<tool id="com.renesas.cdt.managedbuild.gcc.rx.tool.linker.267913279" name="Linker" superClass="com.renesas.cdt.managedbuild.gcc.rx.tool.linker">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.managedbuild.gcc.core.option.linker.source.linkOrderList.1487812369" name="Linkage Order List" superClass="com.renesas.cdt.managedbuild.gcc.core.option.linker.source.linkOrderList" useByScannerDiscovery="false" valueType="stringList">
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/lib/libtm/sysdepend/no_device\tm_com.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/lib/libtm/sysdepend/iote_stm32l4\tm_com.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/lib/libtm/sysdepend/iote_rx231\tm_com.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/lib/libtm/sysdepend/iote_m367\tm_com.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/lib/libtm\libtm.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/lib/libtm\libtm_printf.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/lib/libtk/sysdepend/cpu/tx03_m367\int_m367.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/lib/libtk/sysdepend/cpu/tx03_m367\ptimer_m367.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/lib/libtk/sysdepend/cpu/stm32l4\int_stm32l4.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/lib/libtk/sysdepend/cpu/stm32l4\ptimer_stm32l4.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/lib/libtk/sysdepend/cpu/rx231\int_rx231.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/lib/libtk/sysdepend/cpu/rx231\ptimer_rx231.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/lib/libtk/sysdepend/cpu/core/rxv2\int_rxv2.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/lib/libtk/sysdepend/cpu/core/rxv2\ipr_index.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/lib/libtk/sysdepend/cpu/core/rxv2\wusec_rvx2.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/lib/libtk/sysdepend/cpu/core/armv7m\int_armv7m.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/lib/libtk/sysdepend/cpu/core/armv7m\wusec_aemv7m4.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/lib/libtk\fastlock.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/lib/libtk\fastmlock.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/lib/libtk\kmalloc.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/usermain\usermain.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/tstdlib\bitop.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/tstdlib\string.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/tkernel\cpuctl.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/tkernel\device.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/tkernel\deviceio.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/tkernel\eventflag.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/tkernel\int.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/tkernel\klock.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/tkernel\mailbox.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/tkernel\memory.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/tkernel\mempfix.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/tkernel\mempool.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/tkernel\messagebuf.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/tkernel\misc_calls.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/tkernel\mutex.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/tkernel\objname.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/tkernel\power.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/tkernel\rendezvous.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/tkernel\semaphore.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/tkernel\task.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/tkernel\task_manage.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/tkernel\task_sync.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/tkernel\time_calls.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/tkernel\timer.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/tkernel\tkinit.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/tkernel\wait.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/sysinit\sysinit.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/sysdepend/iote_stm32l4\devinit.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/sysdepend/iote_stm32l4\hw_setting.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/sysdepend/iote_stm32l4\power_save.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/sysdepend/iote_rx231\devinit.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/sysdepend/iote_rx231\hw_setting.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/sysdepend/iote_rx231\power_save.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/sysdepend/iote_m367\devinit.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/sysdepend/iote_m367\hw_setting.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/sysdepend/iote_m367\power_save.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/sysdepend/cpu/tx03_m367\cpu_clock.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/sysdepend/cpu/tx03_m367\vector_tbl.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/sysdepend/cpu/stm32l4\cpu_clock.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/sysdepend/cpu/stm32l4\vector_tbl.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/sysdepend/cpu/rx231\cpu_clock.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/sysdepend/cpu/rx231\hllint_ent.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/sysdepend/cpu/rx231\hllint_tbl.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/sysdepend/cpu/rx231\intvect_tbl.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/sysdepend/cpu/core/rxv2\cpu_cntl.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/sysdepend/cpu/core/rxv2\dispatch.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/sysdepend/cpu/core/rxv2\exc_hdr.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/sysdepend/cpu/core/rxv2\int_asm.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/sysdepend/cpu/core/rxv2\interrupt.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/sysdepend/cpu/core/rxv2\reset_hdl.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/sysdepend/cpu/core/rxv2\reset_main.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/sysdepend/cpu/core/rxv2\vector_tbl.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/sysdepend/cpu/core/armv7m\cpu_cntl.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/sysdepend/cpu/core/armv7m\dispatch.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/sysdepend/cpu/core/armv7m\exc_hdr.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/sysdepend/cpu/core/armv7m\interrupt.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/sysdepend/cpu/core/armv7m\reset_hdl.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/kernel/inittask\inittask.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/device/ser/sysdepend/tx03_m367\ser_m367.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/device/ser/sysdepend/stm32l4\ser_stm32l4.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/device/ser/sysdepend/rx231\ser_rx231.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/device/ser\ser.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/device/i2c/sysdepend/tx03_m367\i2c_m367.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/device/i2c/sysdepend/stm32l4\i2c_stm32l4.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/device/i2c/sysdepend/rx231\i2c_rx231.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/device/i2c\i2c.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/device/common/drvif\msdrvif.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/device/adc/sysdepend/tx03_m367\adc_m367.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/device/adc/sysdepend/stm32l4\adc_stm32l4.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/device/adc/sysdepend/rx231\adc_rx231.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/device/adc\adc.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\mtkernel_3/app_sample\app_main.o&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\libmtk3_rx231.a&quot;"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.managedbuild.gcc.core.option.linker.archives.archiveLibraryFiles.323843540" name="Standard archive (library) files" superClass="com.renesas.cdt.managedbuild.gcc.core.option.linker.archives.archiveLibraryFiles" useByScannerDiscovery="false" valueType="stringList">
+									<listOptionValue builtIn="false" value="${BuildArtifactFileBaseName}"/>
+									<listOptionValue builtIn="false" value="gcc"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.managedbuild.gcc.core.option.linker.source.linkerScript.2022671925" name="Linker script" superClass="com.renesas.cdt.managedbuild.gcc.core.option.linker.source.linkerScript" useByScannerDiscovery="false" valueType="stringList">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mtkernel_3/etc/linker/iote_rx231/tkernel_map.ld}&quot;"/>
+								</option>
+								<option id="com.renesas.cdt.managedbuild.gcc.core.option.linker.misc.nostdlibs.1596126683" name="No startup or default libs (-nostdlib)" superClass="com.renesas.cdt.managedbuild.gcc.core.option.linker.misc.nostdlibs" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="com.renesas.cdt.managedbuild.gcc.core.option.linker.entrypoint.1362957841" name="Entry point:" superClass="com.renesas.cdt.managedbuild.gcc.core.option.linker.entrypoint" useByScannerDiscovery="false" value="-Wl,-e_Reset_Handler" valueType="string"/>
+							</tool>
+							<tool id="com.renesas.cdt.managedbuild.gcc.rx.tool.cpp.linker.232668135" name="Linker CPP" superClass="com.renesas.cdt.managedbuild.gcc.rx.tool.cpp.linker"/>
+							<tool id="com.renesas.cdt.managedbuild.gcc.rx.tool.objcopy.1544763178" name="Objcopy" superClass="com.renesas.cdt.managedbuild.gcc.rx.tool.objcopy"/>
+							<tool id="com.renesas.cdt.managedbuild.gcc.rx.tool.archiver.1481747249" name="Archiver" superClass="com.renesas.cdt.managedbuild.gcc.rx.tool.archiver"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="com.renesas.cdt.managedbuild.core.toolchainInfo">
+				<option id="toolchain.id" value="RENESAS_GCC_RX"/>
+				<option id="toolchain.version" value="8.3.0.202004"/>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="mtk3_rx231.com.renesas.cdt.managedbuild.gcc.rx.projectType.Id.1019468895" name="実行可能" projectType="com.renesas.cdt.managedbuild.gcc.rx.projectType.Id"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="com.renesas.cdt.managedbuild.gcc.rx.configuration.debug.1627069935;com.renesas.cdt.managedbuild.gcc.rx.configuration.debug.1627069935.;com.renesas.cdt.managedbuild.gcc.rx.tool.compiler.1483260523;com.renesas.cdt.managedbuild.gcc.core.inputType.compiler.c.1330750861">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.renesas.cdt.managedbuild.gcc.rx.configuration.release.2039748836;com.renesas.cdt.managedbuild.gcc.rx.configuration.release.2039748836.;com.renesas.cdt.managedbuild.gcc.rx.tool.compiler.232005567;com.renesas.cdt.managedbuild.gcc.core.inputType.compiler.c.390443279">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Debug">
+			<resource resourceType="PROJECT" workspacePath="/mtk3_rx231"/>
+		</configuration>
+		<configuration configurationName="Release">
+			<resource resourceType="PROJECT" workspacePath="/mtk3_rx231"/>
+		</configuration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+</cproject>
