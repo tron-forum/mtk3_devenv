@@ -241,6 +241,7 @@
       c_system_include_directories=""
       c_user_include_directories=".;$(ProjectDir)/mtkernel_3/config;$(ProjectDir)/mtkernel_3/include;$(ProjectDir)/mtkernel_3/kernel/knlinc"
       debug_entry_point_symbol="Reset_Handler"
+      debug_initial_breakpoint="usermain"
       link_include_standard_libraries="No"
       link_linker_script_file="$(ProjectDir)/mtkernel_3/etc/linker/iote_m367/tkernel_map.ld"
       link_use_linker_script_file="Yes"
@@ -250,6 +251,7 @@
       c_preprocessor_definitions="_IOTE_M367_"
       c_user_include_directories=".;$(ProjectDir)/mtkernel_3/config;$(ProjectDir)/mtkernel_3/include;$(ProjectDir)/mtkernel_3/kernel/knlinc"
       debug_entry_point_symbol="Reset_Handler"
+      gcc_debugging_level="Level 1"
       link_include_standard_libraries="No"
       link_linker_script_file="$(ProjectDir)/mtkernel_3/etc/linker/iote_m367/tkernel_map.ld"
       link_use_linker_script_file="Yes"
@@ -259,12 +261,14 @@
     Name="Debug"
     c_preprocessor_definitions="DEBUG"
     c_system_include_directories="$(StudioIncDir:$(StudioDir)/include)"
+    debug_initial_breakpoint="usermain"
     gcc_debugging_level="Level 3"
     gcc_optimization_level="None" />
   <configuration
     Name="Release"
     c_preprocessor_definitions="NDEBUG"
-    gcc_debugging_level="Level 2"
+    debug_initial_breakpoint="usermain"
+    gcc_debugging_level="Level 1"
     gcc_omit_frame_pointer="Yes"
     gcc_optimization_level="Level 2 balanced" />
 </solution>
