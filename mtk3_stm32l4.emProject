@@ -244,11 +244,12 @@
       arm_linker_variant="GNU"
       arm_rtl_variant="Embedded Studio"
       c_preprocessor_definitions="_IOTE_STM32L4_"
-      c_system_include_directories=""
+      c_system_include_directories="$(StudioIncDir:$(StudioDir)/include)"
       c_user_include_directories=".;$(ProjectDir)/mtkernel_3/config;$(ProjectDir)/mtkernel_3/include;$(ProjectDir)/mtkernel_3/kernel/knlinc"
       debug_entry_point_symbol="Reset_Handler"
+      debug_initial_breakpoint="usermain"
       gcc_c_language_standard="c99"
-      link_include_standard_libraries="No"
+      link_include_standard_libraries="Yes"
       link_linker_script_file="$(ProjectDir)/mtkernel_3/etc/linker/iote_stm32l4/tkernel_map.ld"
       link_use_linker_script_file="Yes"
       target_reset_script="TargetInterface.resetAndStop()" />
@@ -257,8 +258,10 @@
       arm_fp_abi="Soft"
       arm_linker_variant="GNU"
       c_preprocessor_definitions="_IOTE_STM32L4_"
+      c_system_include_directories="$(StudioIncDir:$(StudioDir)/include)"
       c_user_include_directories=".;$(ProjectDir)/mtkernel_3/config;$(ProjectDir)/mtkernel_3/include;$(ProjectDir)/mtkernel_3/kernel/knlinc"
       debug_entry_point_symbol="Reset_Handler"
+      debug_initial_breakpoint="usermain"
       link_include_standard_libraries="No"
       link_linker_script_file="$(ProjectDir)/mtkernel_3/etc/linker/iote_stm32l4/tkernel_map.ld"
       link_use_linker_script_file="Yes"
@@ -273,7 +276,7 @@
   <configuration
     Name="Release"
     c_preprocessor_definitions="NDEBUG"
-    gcc_debugging_level="Level 2"
+    gcc_debugging_level="Level 1"
     gcc_omit_frame_pointer="Yes"
     gcc_optimization_level="Level 2 balanced" />
 </solution>
