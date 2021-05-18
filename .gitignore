@@ -3,5 +3,6 @@
 *.map
 *.o
 *.d
+*.launch
 /Debug
 /Release
